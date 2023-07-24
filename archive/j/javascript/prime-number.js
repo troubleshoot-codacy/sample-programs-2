@@ -1,3 +1,4 @@
+// test 1
 const isPrime = (number) => {
     if(number <= 1)
       return false
