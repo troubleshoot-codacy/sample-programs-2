@@ -21,9 +21,11 @@ object FileIO {
     try {
       val buffer = Source.fromFile(filename)
       val redundantBuffer = Source.fromFile(filename)
+      val justOneMore = Source.fromFile(filename)
       val lines = buffer.getLines
 
       lines.foreach(println)
+      justOneMore.close
       redundantBuffer.close
       buffer.close
     } catch {
