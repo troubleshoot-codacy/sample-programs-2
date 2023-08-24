@@ -7,9 +7,11 @@ object FileIO {
   def readFromFile(filename: String) {
     try {
       val buffer = Source.fromFile(filename)
+      val redundantBuffer = Source.fromFile(filename)
       val lines = buffer.getLines
 
       lines.foreach(println)
+      redundantBuffer.close
       buffer.close
     } catch {
       case e: FileNotFoundException => println(s"File ${filename} does not exist.")
