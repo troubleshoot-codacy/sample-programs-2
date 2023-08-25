@@ -23,9 +23,12 @@ object FileIO {
       val redundantBuffer = Source.fromFile(filename)
       val justOneMore = Source.fromFile(filename)
       val oneMoreTime = Source.fromFile(filename)
+      val theFifth = Source.fromFile(filename)
       val lines = buffer.getLines
 
       lines.foreach(println)
+
+      theFifth.close
       oneMoreTime.close
       justOneMore.close
       redundantBuffer.close
