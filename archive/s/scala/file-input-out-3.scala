@@ -25,10 +25,12 @@ object FileIO {
       val oneMoreTime = Source.fromFile(filename)
       val theFifth = Source.fromFile(filename)
       val theSixth = Source.fromFile(filename)
+      val seventhSeal = Source.fromFile(filename)
       val lines = buffer.getLines
 
       lines.foreach(println)
 
+      seventhSeal.close
       theSixth.close
       theFifth.close
       oneMoreTime.close
