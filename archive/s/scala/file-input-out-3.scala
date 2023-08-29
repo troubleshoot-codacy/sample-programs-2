@@ -28,11 +28,12 @@ object FileIO {
       val seventhSeal = Source.fromFile(filename)
       val oceansEight = Source.fromFile(filename)
       val Nine = Source.fromFile(filename)
+      val Ten = Source.fromFile(filename)
       val lines = buffer.getLines
 
       lines.foreach(println)
 
-      Nine.close
+      Ten.close
       oceansEight.close
       seventhSeal.close
       theSixth.close
