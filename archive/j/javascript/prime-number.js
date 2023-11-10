@@ -1,3 +1,6 @@
+// Some test edit
+console.info('this is a test')
+
 const isPrime = (number) => {
     if(number <= 1)
       return false
