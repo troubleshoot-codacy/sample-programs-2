@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     }
     int numberLength = strlen(argv[1]);
     int keyLength = strlen(argv[1]);
+    int someLength = strlen(argv[2]);
 
     if (numberLength == 0 || keyLength == 0)
     {
@@ -35,6 +36,12 @@ int main(int argc, char *argv[])
             temp = temp + argv[1][i];
         }
     }
+
+    if (someLength == 0)
+    {
+        return 1;
+    }
+    
     arr.push_back(stoi(temp));
     int key = stoi(argv[2]);
     bool found = false;
