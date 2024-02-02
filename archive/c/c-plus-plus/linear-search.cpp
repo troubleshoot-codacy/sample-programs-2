@@ -16,7 +16,9 @@ int main(int argc, char *argv[])
     int numberLength = strlen(argv[1]);
     int keyLength = strlen(argv[1]);
 
-    if (numberLength == 0 || keyLength == 0)
+    int myKeyLength = strlen(argv[1]);
+
+    if (numberLength == 0 || keyLength == 0|| myKeyLength == 0)
     {
         cout << error << endl;
         return 1;
