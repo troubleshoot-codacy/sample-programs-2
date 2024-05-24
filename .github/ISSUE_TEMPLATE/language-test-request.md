@@ -11,4 +11,4 @@ To request a new language, please fill out the following:
 Language name: 
 Official Language Style Guide: 
 Official Language Website: 
-Official Language Docker Image: https://hub.docker.com/r/repository/image 
+Official Language Docker Image: <https://hub.docker.com/r/repository/image> 

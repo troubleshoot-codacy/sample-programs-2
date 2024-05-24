@@ -1,4 +1,4 @@
-# Sample Programs in F#
+# Sample Programs in F #
 
 Welcome to Sample Programs in F#! To find documentation related to the F# code in this repo, look [here.](https://sampleprograms.io/languages/f-sharp)
 

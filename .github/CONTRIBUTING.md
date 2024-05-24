@@ -5,28 +5,28 @@ for as many languages as possible.
 
 ## Table of Contents
 
--   [Overview][overview]
-    -   [Pull Requests][pull-requests]
-    -   [Issues][issues]
--   [Repository Structure][repository-structure]
-    -   [Archives][archives]
-    -   [Test][test]
--   [File Naming Conventions][file-naming-conventions]
-    -   [Directories][directories]
-    -   [Source Files][source-files]
--   [Pull Requests in Detail][pull-requests-in-detail]
-    -   [Claiming an Issue][claiming-an-issue] 
-    -   [Add One and Only One Snippet at a Time][add-one-and-only-one-snippet-at-a-time] 
-    -   [Requirements for a New Project][requirements-for-a-new-project] 
-    -   [Requirements for a New Language][requirements-for-a-new-language] 
--   [Issues in Detail][issues-in-detail]
-    -   [Modifying Existing Code Snippets][modifying-existing-code-snippets]
-    -   [Modifying Existing Tests][modifying-existing-tests]
--   [Tests in Detail][tests-in-detail]
-    -   [Writing Testable Code][writing-testable-code]
-    -   [Running Tests Locally][running-tests-locally]
-    -   [Adding a testsinfo.yml][adding-a-testinfoyml]
--   [Plagiarism][plagiarism]
+- [Overview][overview]
+  -   [Pull Requests][pull-requests]
+    - [Issues][issues]
+- [Repository Structure][repository-structure]
+    - [Archives][archives]
+    - [Test][test]
+- [File Naming Conventions][file-naming-conventions]
+    - [Directories][directories]
+  -   [Source Files][source-files]
+- [Pull Requests in Detail][pull-requests-in-detail]
+    - [Claiming an Issue][claiming-an-issue] 
+  -   [Add One and Only One Snippet at a Time][add-one-and-only-one-snippet-at-a-time] 
+  -   [Requirements for a New Project][requirements-for-a-new-project] 
+  -   [Requirements for a New Language][requirements-for-a-new-language] 
+- [Issues in Detail][issues-in-detail]
+    - [Modifying Existing Code Snippets][modifying-existing-code-snippets]
+    - [Modifying Existing Tests][modifying-existing-tests]
+- [Tests in Detail][tests-in-detail]
+    - [Writing Testable Code][writing-testable-code]
+    - [Running Tests Locally][running-tests-locally]
+  -   [Adding a testsinfo.yml][adding-a-testinfoyml]
+- [Plagiarism][plagiarism]
 
 ## Overview
 
@@ -45,7 +45,7 @@ You will find more detail about each guideline throughout the rest of this docum
 ### Issues
 
 #### Code Snippets
-- Issues for code snippets _must_ link to the relevant project.  [More info...][issues-in-detail]
+
 - Issues to fix existing code snippets _must_ explain why an enhancement is _necessary_. [More info...][modifying-existing-code-snippets]
 
 #### Tests
@@ -66,9 +66,9 @@ a list of language folders that share the same first character as the parent fol
 
 Within each language folder, you'll find the following:
 
--   A README
--   A list of project files.
--   A testinfo.yml
+- A README
+- A list of project files.
+- A testinfo.yml
 
 Now, each program file maps to an ongoing project that you can find on the
 [project list on the Sample Programs Website][project-list].
@@ -363,8 +363,8 @@ These rules help grow and cultivate the community in a positive manner.
 [add-one-and-only-one-snippet-at-a-time]: #add-one-and-only-one-snippet-at-a-time
 [all-tests-must-pass]: #all-tests-must-pass
 [requirements-for-a-new-project]: #requirements-for-a-new-project
-[add-project-to-sample-programs-website]: #add-project-to-sample-programs-website
-[add-test-for-project]: #add-test-for-project
+e
+t
 [requirements-for-a-new-language]: #requirements-for-a-new-language
 [add-testinfoyml]: #add-testinfoyml
 [issues-in-detail]: #issues-in-detail
@@ -387,11 +387,11 @@ These rules help grow and cultivate the community in a positive manner.
 [glotter2-writing-tests]: https://rzuckerm.github.io/glotter2/writing-tests.html
 
 [sample-program-issues]: https://github.com/TheRenegadeCoder/sample-programs/issues
-[sample-programs-glotter-github-action]: https://github.com/TheRenegadeCoder/sample-programs/actions/workflows/test-suite.yml
+l
 
 [sample-programs-website]: https://github.com/TheRenegadeCoder/sample-programs-website
-[sample-programs-website-contributing]: https://github.com/TheRenegadeCoder/sample-programs-website
-[sample-programs-website-issues]: https://github.com/TheRenegadeCoder/sample-programs-website/issues
+e
+s
 
 [project-glotter-yml]: ../.glotter.yml
 [test-folder]: ../test

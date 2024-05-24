@@ -49,9 +49,9 @@ for sharing their work with our repo:
 - [@toturkmen][toturkmen-profile] for their [Baklava Repo][baklava-repo]
 
 [1]: http://www.100daysofcode.com/
-[2]: https://therenegadecoder.com/code/hello-world-in-every-language/
-[3]: https://therenegadecoder.com/code/reverse-a-string-in-every-language/
-[4]: https://therenegadecoder.com/blog/the-coolest-programming-language-features/
+/
+/
+/
 [6]: https://github.com/jrg94/sample-programs/blob/master/.github/CONTRIBUTING.md
 [7]: https://www.patreon.com/TheRenegadeCoder
 [8]: https://github.com/jrg94/sample-programs/blob/master/.github/CODE_OF_CONDUCT.md
@@ -62,9 +62,9 @@ for sharing their work with our repo:
 [13]: https://help.getadblock.com/support/solutions/articles/6000163989-how-do-i-pause-or-disable-adblock-
 [14]: https://twitter.com/RenegadeCoder94
 [15]: https://discord.gg/Jhmtj7Z
-[16]: https://therenegadecoder.com/code/longest-palindrome-substring-in-every-language/
-[18]: https://therenegadecoder.com/code/fizz-buzz-in-every-language/
-[19]: https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
+/
+/
+/
 [20]: https://sampleprograms.io/projects/
 
 [auroq-profile]: https://github.com/auroq
