@@ -22,7 +22,3 @@ generated/
 /docs
 
 *.iml
-
-
-#Ignore vscode AI rules
-.github/copilot-instructions.md
