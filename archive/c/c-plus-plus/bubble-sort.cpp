@@ -49,38 +49,54 @@ void print(std::vector<int> v, int size)
 
 int main(int argc, char *argv[])
 {
+    // Validate arguments
+    if (argc != 2 || argv[1] == nullptr)
+    {
+        std::cout << "Usage: please provide a list of at least two integers to "
+                     "sort in the format \"1, 2, 3, 4, 5\""
+                  << std::endl;
+        return 1;
+    }
 
     char *characters = argv[1];
     bool commaSeparated = false;
     int index = 1;
     std::vector<int> numbers;
+    
+    // Store string length once to avoid multiple strlen calls
+    size_t characters_len = strlen(characters);
 
-    if (argc == 2)
+    // Validate that we have at least some input
+    if (characters_len == 0)
     {
+        std::cout << "Usage: please provide a list of at least two integers to "
+                     "sort in the format \"1, 2, 3, 4, 5\""
+                  << std::endl;
+        return 1;
+    }
 
-        while (index < strlen(characters))
+    while (index < characters_len)
+    {
+        // Add bounds check to prevent buffer over-read
+        if (characters[index] == ',' && index + 1 < characters_len && characters[index + 1] == ' ')
         {
-            if (characters[index] == ',' && characters[index + 1] == ' ')
-            {
-                commaSeparated = true;
-            }
-            else
-            {
-                commaSeparated = false;
-                break;
-            }
-            index += 3;
+            commaSeparated = true;
         }
-
-        if (commaSeparated == true)
+        else
         {
-            for (int i = 0; i < strlen(characters); i++)
-            {
+            commaSeparated = false;
+            break;
+        }
+        index += 3;
+    }
 
-                if (characters[i] != ',' && characters[i] != ' ')
-                {
-                    numbers.push_back(atoi(&characters[i]));
-                }
+    if (commaSeparated == true)
+    {
+        for (size_t i = 0; i < characters_len; i++)
+        {
+            if (characters[i] != ',' && characters[i] != ' ')
+            {
+                numbers.push_back(atoi(&characters[i]));
             }
         }
     }
