@@ -1,6 +1,8 @@
 #include <cstring>
 #include <iostream>
 #include <vector>
+#include <cctype>
+#include <string>
 
 void swap(int *xp, int *yp)
 {
@@ -58,13 +60,14 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    char *characters = argv[1];
+    // Use std::string for safer string handling
+    std::string characters(argv[1]);
     bool commaSeparated = false;
-    int index = 1;
+    size_t index = 1;
     std::vector<int> numbers;
     
-    // Store string length once to avoid multiple strlen calls
-    size_t characters_len = strlen(characters);
+    // Get string length safely
+    size_t characters_len = characters.length();
 
     // Validate that we have at least some input
     if (characters_len == 0)
@@ -96,7 +99,20 @@ int main(int argc, char *argv[])
         {
             if (characters[i] != ',' && characters[i] != ' ')
             {
-                numbers.push_back(atoi(&characters[i]));
+                // Convert single digit at a time since we're parsing comma-separated values
+                if (std::isdigit(characters[i]))
+                {
+                    // Find the full number starting at position i
+                    size_t start = i;
+                    while (i < characters_len && std::isdigit(characters[i]))
+                    {
+                        i++;
+                    }
+                    // Extract the number substring and convert it
+                    std::string number_str = characters.substr(start, i - start);
+                    numbers.push_back(std::stoi(number_str));
+                    i--; // Adjust for the loop increment
+                }
             }
         }
     }
