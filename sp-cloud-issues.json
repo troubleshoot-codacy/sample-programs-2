@@ -1,0 +1,4375 @@
+{
+  "issues": [
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/even-odd.c",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180558,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/bubble-sort.c",
+      "lineNumber": 2,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180521,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 7,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910753,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_E711_none-comparison",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Comparison to `None` should be `cond is None` (E711)",
+      "filePath": "archive/p/python/longest_palindromic_substring.py",
+      "lineNumber": 38,
+      "lineText": "        if string == \"\" or string == None:",
+      "resultDataId": 131454927037,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 13 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/dijkstra.cpp",
+      "lineNumber": 111,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910749,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_F632_is-literal",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Use `!=` to compare constant literals (F632)",
+      "filePath": "archive/p/python/prime_number.py",
+      "lineNumber": 6,
+      "lineText": "    if (x % 2 == 0 and x is not 2) or (x == 1):",
+      "resultDataId": 131454927032,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/hello-world.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180546,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180526,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/insertion-sort.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180511,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180553,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/baklava.sh",
+      "lineNumber": 5,
+      "lineText": "\tprintf \"*%.0s\" $(seq 1 $(( $i * 2 + 1 )))",
+      "resultDataId": 131200539586,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_E702_multiple-statements-on-one-line-semicolon",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Multiple statements on one line (semicolon) (E702)",
+      "filePath": "archive/p/python/quine.py",
+      "lineNumber": 1,
+      "lineText": "s='s=%r;print(s%%s)';print(s%s)",
+      "resultDataId": 131454927033,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 101,
+      "lineText": "    if(argv[1]==NULL||strlen(argv[1])==0){",
+      "resultDataId": 131200539680,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/merge-sort.c",
+      "lineNumber": 4,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180513,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 16,
+      "lineText": "    int numberLength = strlen(argv[1]);",
+      "resultDataId": 131200546807,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method isPrime has a cyclomatic complexity of 11 (limit is 8)",
+      "filePath": "archive/l/lua/prime-number.lua",
+      "lineNumber": 2,
+      "lineText": "function isPrime(n)",
+      "resultDataId": 131459910776,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/reverse-string.c",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180533,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Trivy_secret",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InsecureStorage"
+      },
+      "message": "Possible hardcoded secret: Adobe Client ID (Oauth Web)",
+      "filePath": "secVulnerabilities.go",
+      "lineNumber": 2,
+      "lineText": "adobe_api_token = \"90ade2687249df5f415099b431b31fae\"",
+      "resultDataId": 131364334590,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <ctype.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 4,
+      "lineText": "#include <ctype.h>",
+      "resultDataId": 131455180531,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180561,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180527,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/selection-sort.c",
+      "lineNumber": 6,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180525,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 1,
+      "lineText": "#include  <stdio.h>",
+      "resultDataId": 131455180556,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method longest_palindromic_substring has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/r/rust/longest-palindromic-substring.rs",
+      "lineNumber": 13,
+      "lineText": "fn longest_palindromic_substring(s: String) -> String {",
+      "resultDataId": 131459910729,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 12 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/prime-number.cpp",
+      "lineNumber": 7,
+      "lineText": "int main(int argc, char **argv)",
+      "resultDataId": 131459910748,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 2,
+      "lineText": "#include<stdlib.h>",
+      "resultDataId": 131455180560,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180512,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/fizz-buzz.sh",
+      "lineNumber": 8,
+      "lineText": "    elif (( $i % 3 == 0 )); then",
+      "resultDataId": 131200539597,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/fizz-buzz.sh",
+      "lineNumber": 6,
+      "lineText": "    elif (( $i % 5 == 0 )); then",
+      "resultDataId": 131200539605,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 78,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910752,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <ctype.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 3,
+      "lineText": "#include <ctype.h>",
+      "resultDataId": 131455180554,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 1,
+      "lineText": "#include  <stdio.h>",
+      "resultDataId": 131455180510,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/baklava.sh",
+      "lineNumber": 4,
+      "lineText": "\tprintf \" %.0s\" $(seq 1 $(( 10 - $i )))",
+      "resultDataId": 131200539587,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2034",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "i appears unused. Verify use (or export if used externally).",
+      "filePath": "archive/b/bash/bubble-sort.sh",
+      "lineNumber": 7,
+      "lineText": "\tfor i in \"${!array[@]}\"; do",
+      "resultDataId": 131200539611,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 17,
+      "lineText": "    if(argc == 2 && strlen(argv[1]) != 0 && !isdigit(*argv[1])) {",
+      "resultDataId": 131200539653,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/reverse-string.c",
+      "lineNumber": 14,
+      "lineText": "    textlen = strlen(text);",
+      "resultDataId": 131200539647,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <ctype.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 3,
+      "lineText": "#include <ctype.h>",
+      "resultDataId": 131455180520,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 40,
+      "lineText": "    if (strlen(argv[1]) != j || j == 0)",
+      "resultDataId": 131200539675,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/file-input-output.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180537,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180506,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 1,
+      "lineText": "#include  <stdio.h>",
+      "resultDataId": 131455180515,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/selection-sort.sh",
+      "lineNumber": 34,
+      "lineText": "    array[$ind]=$tmp",
+      "resultDataId": 131200539594,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c-plus-plus/capitalize.cpp",
+      "lineNumber": 12,
+      "lineText": "    for (int j = 0; j < (int)std::strlen(argv[1]); j++)",
+      "resultDataId": 131200546812,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 12 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 263,
+      "lineText": "int main(int argc, char const *argv[])",
+      "resultDataId": 131459910757,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 16 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 52,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910756,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_nloc-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method longest_common_subsequence has 51 lines of code (limit is 50)",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 33,
+      "lineText": "void longest_common_subsequence(vector<string> arr1, vector<string> arr2)",
+      "resultDataId": 131459910759,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 28,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200539678,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/fizz-buzz.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180518,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 106,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200539672,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method longestPalindrome has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/p/python/longest_palindromic_substring.py",
+      "lineNumber": 5,
+      "lineText": "def longestPalindrome(string):",
+      "resultDataId": 131459910738,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/file-input-output.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180505,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 51,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200539670,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/merge-sort.c",
+      "lineNumber": 6,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180547,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 24,
+      "lineText": "    if(strlen(argv[1]) == 0){",
+      "resultDataId": 131200539652,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 66,
+      "lineText": "    while(argv[1]==NULL||strlen(argv[1])==0){",
+      "resultDataId": 131200539654,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2148",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Tips depend on target shell and yours is unknown. Add a shebang or a 'shell' directive.",
+      "filePath": "archive/b/bash/quine.sh",
+      "lineNumber": 1,
+      "lineText": "echo $BASH_COMMAND",
+      "resultDataId": 131200539604,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method _validate_arguments has a cyclomatic complexity of 10 (limit is 8)",
+      "filePath": "archive/p/python/minimum_spanning_tree.py",
+      "lineNumber": 26,
+      "lineText": "def _validate_arguments():",
+      "resultDataId": 131459910736,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <inttypes.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/fibonacci.c",
+      "lineNumber": 3,
+      "lineText": "#include <inttypes.h>",
+      "resultDataId": 131455180562,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_E722_bare-except",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Do not use bare `except` (E722)",
+      "filePath": "archive/p/python/josephus_problem.py",
+      "lineNumber": 15,
+      "lineText": "except:",
+      "resultDataId": 131454927036,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c.lang.security.insecure-use-printf-fn.insecure-use-printf-fn",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Avoid using user-controlled format strings passed into 'sprintf', 'printf' and 'vsprintf'. These functions put you at risk of buffer overflow vulnerabilities through the use of format string exploits.",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 19,
+      "lineText": "        printf(\"%s\\n\", argv[1]);",
+      "resultDataId": 131459910775,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180563,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method prims_algorithm has a cyclomatic complexity of 17 (limit is 8)",
+      "filePath": "archive/p/python/minimum_spanning_tree.py",
+      "lineNumber": 6,
+      "lineText": "def prims_algorithm(weights):",
+      "resultDataId": 131459910737,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180555,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 46,
+      "lineText": "    if(argv[1]==NULL||strlen(argv[1])==0||argv[2]==NULL||strlen(argv[2])==0){",
+      "resultDataId": 131200539667,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_E741_ambiguous-variable-name",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Ambiguous variable name: `l` (E741)",
+      "filePath": "archive/p/python/quick_sort.py",
+      "lineNumber": 8,
+      "lineText": "    left = quick_sort([l for l in xs[1:] if l <= xs[0]])",
+      "resultDataId": 131454927035,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 14,
+      "lineText": "    if(strlen(argv[1])<=0){",
+      "resultDataId": 131200539661,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180508,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "PyLintPython3_W0702",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "No exception type(s) specified",
+      "filePath": "archive/p/python/josephus_problem.py",
+      "lineNumber": 15,
+      "lineText": "except:",
+      "resultDataId": 131200539713,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/even-odd.sh",
+      "lineNumber": 6,
+      "lineText": "rem=$(( $count % 2 ))",
+      "resultDataId": 131200539596,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 6,
+      "lineText": "    for(int i = 0; i < strlen(str); i++) {",
+      "resultDataId": 131200539674,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 69,
+      "lineText": "    len=strlen(argv[2]);",
+      "resultDataId": 131200539656,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/fizz-buzz.sh",
+      "lineNumber": 4,
+      "lineText": "    if (( $i % 15 == 0 )); then",
+      "resultDataId": 131200539606,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_nloc-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method fmt has 109 lines of code (limit is 50)",
+      "filePath": "archive/r/rust/fraction-math.rs",
+      "lineNumber": 58,
+      "lineText": "    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {",
+      "resultDataId": 131459910730,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/even-odd.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180549,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 10 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/depth-first-search.cpp",
+      "lineNumber": 93,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910758,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 13,
+      "lineText": "    if(strlen(argv[1])==0){",
+      "resultDataId": 131200539677,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 18,
+      "lineText": "    int len=strlen(argv[1]);",
+      "resultDataId": 131200539673,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdint.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdint.h>",
+      "resultDataId": 131455180524,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <limits.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 5,
+      "lineText": "#include <limits.h>",
+      "resultDataId": 131455180538,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 70,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200539650,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180542,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method convert has a cyclomatic complexity of 11 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/dijkstra.cpp",
+      "lineNumber": 49,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131459910755,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "PyLintPython3_W0702",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "No exception type(s) specified",
+      "filePath": "archive/p/python/maximum_array_rotation.py",
+      "lineNumber": 18,
+      "lineText": "except:",
+      "resultDataId": 131200539715,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180507,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/selection-sort.c",
+      "lineNumber": 5,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180565,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_nloc-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has 68 lines of code (limit is 50)",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 52,
+      "lineText": "int main(int argc, char *argv[])",
+      "resultDataId": 131459910751,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 17,
+      "lineText": "    int keyLength = strlen(argv[1]);",
+      "resultDataId": 131200546808,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "PyLintPython3_W0622",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Redefining built-in 'input'",
+      "filePath": "archive/p/python/capitalize.py",
+      "lineNumber": 4,
+      "lineText": "def capitalize(input):",
+      "resultDataId": 131200539710,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/fibonacci.c",
+      "lineNumber": 2,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180548,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 17,
+      "lineText": "    if(argc == 2 && strlen(argv[1]) != 0) {",
+      "resultDataId": 131200539679,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method longest_common_subsequence has a cyclomatic complexity of 11 (limit is 8)",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 33,
+      "lineText": "void longest_common_subsequence(vector<string> arr1, vector<string> arr2)",
+      "resultDataId": 131459910754,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/selection-sort.sh",
+      "lineNumber": 33,
+      "lineText": "    array[$i]=${array[$ind]}",
+      "resultDataId": 131200539589,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/reverse-string.sh",
+      "lineNumber": 6,
+      "lineText": "for ((i=$strLength-1;i>-1;i--)); ",
+      "resultDataId": 131200539598,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Ruff_E722_bare-except",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Do not use bare `except` (E722)",
+      "filePath": "archive/p/python/maximum_array_rotation.py",
+      "lineNumber": 18,
+      "lineText": "except:",
+      "resultDataId": 131454927034,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 41,
+      "lineText": "    if (strlen(argv[1]) != j || j == 0)",
+      "resultDataId": 131200546809,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "shellcheck_SC2004",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "$/${} is unnecessary on arithmetic variables.",
+      "filePath": "archive/b/bash/fibonacci.sh",
+      "lineNumber": 15,
+      "lineText": "    n=$[$n+$n_minus_1]",
+      "resultDataId": 131200539602,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_nloc-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has 59 lines of code (limit is 50)",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 263,
+      "lineText": "int main(int argc, char const *argv[])",
+      "resultDataId": 131459910750,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180559,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 20,
+      "lineText": "        int len = strlen(word);",
+      "resultDataId": 131200539660,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180539,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/README.md",
+      "lineNumber": 6,
+      "lineText": "Welcome to the [Sample Programs in Every Language][sample-programs-on-the-renegade-coder] ",
+      "resultDataId": 131236409729,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE/new-language-code-snippet.md",
+      "lineNumber": 10,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409741,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/prime-number.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180516,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180573,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_knownConditionTrueFalse",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Same expression on both sides of '||' because 'numberLength==0' and 'keyLength==0' represent the same value.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 19,
+      "lineText": "    if (numberLength == 0 || keyLength == 0)",
+      "resultDataId": 131455180597,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE/refactor.md",
+      "lineNumber": 10,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409733,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE.md",
+      "lineNumber": 1,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409735,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/selection-sort.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180522,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/insertion-sort.c",
+      "lineNumber": 4,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180557,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_noExplicitConstructor",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Class 'Fraction' has a constructor with 1 argument that is not explicit.",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 28,
+      "lineText": "    Fraction(int top = 0, int bottom = 1)",
+      "resultDataId": 131200546238,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/roman-numeral.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180625,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/insertion-sort.c",
+      "lineNumber": 2,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180568,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/README.md",
+      "lineNumber": 13,
+      "lineText": "To get up to speed quickly, check out the [contributing doc][6]. Otherwise, ",
+      "resultDataId": 131236409743,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/project-test-request.md",
+      "lineNumber": 11,
+      "lineText": "Project name: ",
+      "resultDataId": 131236409745,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 18,
+      "lineText": "    -   [Claiming an Issue][claiming-an-issue] ",
+      "resultDataId": 131236409742,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 4,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180540,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/language-test-request.md",
+      "lineNumber": 11,
+      "lineText": "Language name: ",
+      "resultDataId": 131236409718,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 344,
+      "lineText": "comment in the source code would suffice. After that, the solution should be adapted as needed. ",
+      "resultDataId": 131236409724,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/quick-sort.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180580,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/capitalize.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180574,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 95,
+      "lineText": "for some users. ",
+      "resultDataId": 131236409731,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 3,
+      "lineText": "#include<string.h>",
+      "resultDataId": 131455180530,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_knownConditionTrueFalse",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Condition 'argc==1' is always false",
+      "filePath": "archive/c/c-plus-plus/prime-number.cpp",
+      "lineNumber": 15,
+      "lineText": "    if (argc == 1 || argv[1][0] == '\\0' || (atoi(argv[1]) == 0 && strcmp(argv[1], \"0\") != 0) || atoi(argv[1]) < 0 || tmp.find(\".\") != string::npos)",
+      "resultDataId": 131200546242,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_unsignedLessThanZero",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Checking if unsigned expression 'strlen(argv[1])' is less than zero.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 14,
+      "lineText": "    if(strlen(argv[1])<=0){",
+      "resultDataId": 131200546117,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/file-input-output.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180579,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/bubble-sort.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180543,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstring> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <cstring>",
+      "resultDataId": 131455180632,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstring> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <cstring>",
+      "resultDataId": 131455180631,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180551,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/merge-sort.c",
+      "lineNumber": 5,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180519,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/fibonacci.c",
+      "lineNumber": 4,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180529,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/insertion-sort.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180528,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 'arr1' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 33,
+      "lineText": "void longest_common_subsequence(vector<string> arr1, vector<string> arr2)",
+      "resultDataId": 131200546243,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_invalidPrintfArgType_sint",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "%ld in format string (no. 1) requires 'long' but the argument type is 'unsigned long'.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 51,
+      "lineText": "\tprintf(\"%ld\\n\", result);",
+      "resultDataId": 131200546120,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method validate_inputs has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/p/python/dijkstra.py",
+      "lineNumber": 11,
+      "lineText": "def validate_inputs(weights, num_vertices, src, dest):",
+      "resultDataId": 131459910739,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/quick-sort.cpp",
+      "lineNumber": 42,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546248,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/selection-sort.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180612,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD052",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Missing link or image reference definition: \"contributing-new-language\"",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE.md",
+      "lineNumber": 19,
+      "lineText": "- [ ] I added a `testinfo.yml` files (see [contributing documentation][contributing-new-language])",
+      "resultDataId": 131226371684,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/README.md",
+      "lineNumber": 25,
+      "lineText": "Sample Programs in Every Language is a project run by myself, Jeremy Grifski, as ",
+      "resultDataId": 131236409740,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 215,
+      "lineText": "pull request process. ",
+      "resultDataId": 131236409734,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/dijkstra.cpp",
+      "lineNumber": 49,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546254,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/selection-sort.cpp",
+      "lineNumber": 52,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546257,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/language-test-request.md",
+      "lineNumber": 14,
+      "lineText": "Official Language Docker Image: https://hub.docker.com/r/repository/image ",
+      "resultDataId": 131236409744,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 249,
+      "lineText": "Fraction fromstr(string s)",
+      "resultDataId": 131200546237,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <algorithm> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/reverse-string.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <algorithm>",
+      "resultDataId": 131455180572,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180550,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 3,
+      "lineText": "#include<stdlib.h>",
+      "resultDataId": 131455180567,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180600,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/file-input-output.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180608,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/prime-number.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180564,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/depth-first-search.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180624,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/reverse-string.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180613,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180566,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/prime-number.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180609,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/code-snippet-request.md",
+      "lineNumber": 17,
+      "lineText": "Official Language Style Guide: ",
+      "resultDataId": 131236409728,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/language-test-request.md",
+      "lineNumber": 12,
+      "lineText": "Official Language Style Guide: ",
+      "resultDataId": 131236409719,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/code-snippet-request.md",
+      "lineNumber": 13,
+      "lineText": "Language: ",
+      "resultDataId": 131236409727,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/language-test-request.md",
+      "lineNumber": 13,
+      "lineText": "Official Language Website: ",
+      "resultDataId": 131236409717,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180617,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/fizz-buzz.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180571,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE/code-snippet.md",
+      "lineNumber": 10,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409732,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-word.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180603,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/selection-sort.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180584,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 21,
+      "lineText": "    -   [Requirements for a New Language][requirements-for-a-new-language] ",
+      "resultDataId": 131236409722,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/merge-sort.cpp",
+      "lineNumber": 12,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546239,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/insertion-sort.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180583,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstdlib> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/factorial.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <cstdlib>",
+      "resultDataId": 131455180588,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 76,
+      "lineText": "links to existing articles in the documentation. ",
+      "resultDataId": 131236409720,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <errno.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/selection-sort.c",
+      "lineNumber": 4,
+      "lineText": "#include <errno.h>",
+      "resultDataId": 131455180523,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180535,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD052",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Missing link or image reference definition: \"sample-programs-glotter-github-actions\"",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 272,
+      "lineText": "[Glotter GitHub Action][sample-programs-glotter-github-actions].",
+      "resultDataId": 131226371659,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 5,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180599,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180536,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/dijkstra.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180629,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/roman-numeral.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180619,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/code-snippet-request.md",
+      "lineNumber": 18,
+      "lineText": "Official Language Website: ",
+      "resultDataId": 131236409737,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/bubble-sort.c",
+      "lineNumber": 4,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180517,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdbool.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/bubble-sort.c",
+      "lineNumber": 5,
+      "lineText": "#include <stdbool.h>",
+      "resultDataId": 131455180532,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/even-odd.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180552,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/fibonacci.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180534,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180594,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/code-snippet-request.md",
+      "lineNumber": 11,
+      "lineText": "Project name: ",
+      "resultDataId": 131236409738,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE/new-project-tests.md",
+      "lineNumber": 10,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409721,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 1,
+      "lineText": "#include<stdio.h>",
+      "resultDataId": 131455180569,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/baklava.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180607,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstdlib> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/fibonacci.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <cstdlib>",
+      "resultDataId": 131455180593,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 1,
+      "lineText": "#include  <stdio.h>",
+      "resultDataId": 131455180509,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 264,
+      "lineText": "but still recommend waiting for approval from the core team (`@TheRenegadeCoder/core`) ",
+      "resultDataId": 131236409723,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <algorithm> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <algorithm>",
+      "resultDataId": 131455180577,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/reverse-string.c",
+      "lineNumber": 1,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180541,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/even-odd.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180621,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD052",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Missing link or image reference definition: \"projects-list\"",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 228,
+      "lineText": "To do so go to the [Projects List page][projects-list] on the Sample Programs website.",
+      "resultDataId": 131226371711,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/even-odd.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180610,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/bubble-sort.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180544,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 'v' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 39,
+      "lineText": "void print(std::vector<int> v, int size)",
+      "resultDataId": 131200546240,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 20,
+      "lineText": "    -   [Requirements for a New Project][requirements-for-a-new-project] ",
+      "resultDataId": 131236409726,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_generic.secrets.gitleaks.adobe-client-id.adobe-client-id",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InsecureStorage"
+      },
+      "message": "A gitleaks adobe-client-id was detected which attempts to identify hard-coded credentials.",
+      "filePath": "secVulnerabilities.go",
+      "lineNumber": 2,
+      "lineText": "adobe_api_token = \"90ade2687249df5f415099b431b31fae\"",
+      "resultDataId": 131459910818,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180514,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c/merge-sort.c",
+      "lineNumber": 3,
+      "lineText": "#include <stdio.h>",
+      "resultDataId": 131455180545,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/CONTRIBUTING.md",
+      "lineNumber": 19,
+      "lineText": "    -   [Add One and Only One Snippet at a Time][add-one-and-only-one-snippet-at-a-time] ",
+      "resultDataId": 131236409730,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/depth-first-search.cpp",
+      "lineNumber": 14,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546255,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <vector>",
+      "resultDataId": 131455180585,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/merge-sort.rs",
+      "lineNumber": 71,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622818,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_dockerfile.security.no-sudo-in-dockerfile.no-sudo-in-dockerfile",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InsecureModulesLibraries"
+      },
+      "message": "Avoid using sudo in Dockerfiles.",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 3,
+      "lineText": "RUN useradd -ms /bin/bash -G sudo opauser && \\",
+      "resultDataId": 131449880481,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/longest-word.rs",
+      "lineNumber": 19,
+      "lineText": "    let s: String = args()",
+      "resultDataId": 131210622855,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/depth-first-search.rs",
+      "lineNumber": 150,
+      "lineText": "        args().nth(2)",
+      "resultDataId": 131210622849,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <fstream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/file-input-output.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <fstream>",
+      "resultDataId": 131455180604,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 45,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546259,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 18,
+      "lineText": "    int len=strlen(argv[1]);",
+      "resultDataId": 131200546142,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 17,
+      "lineText": "    if(argc == 2 && strlen(argv[1]) != 0 && !isdigit(*argv[1])) {",
+      "resultDataId": 131200546132,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180634,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/palindromic-number.c",
+      "lineNumber": 40,
+      "lineText": "    if (strlen(argv[1]) != j || j == 0)",
+      "resultDataId": 131200546147,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/linear-search.rs",
+      "lineNumber": 37,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622829,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/prime-number.rs",
+      "lineNumber": 21,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622837,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 66,
+      "lineText": "    while(argv[1]==NULL||strlen(argv[1])==0){",
+      "resultDataId": 131200546139,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <sstream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/insertion-sort.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <sstream>",
+      "resultDataId": 131455180595,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/fibonacci.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180633,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/fraction-math.rs",
+      "lineNumber": 195,
+      "lineText": "    let op = args().nth(2).",
+      "resultDataId": 131210622835,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180623,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cctype> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <cctype>",
+      "resultDataId": 131455180605,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <unordered_map> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/duplicate-character-counter.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <unordered_map>",
+      "resultDataId": 131455180606,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/roman-numeral.rs",
+      "lineNumber": 4,
+      "lineText": "    let args: Vec<String> = env::args().collect();",
+      "resultDataId": 131210622850,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/depth-first-search.rs",
+      "lineNumber": 156,
+      "lineText": "        args().nth(3)",
+      "resultDataId": 131210622821,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_knownConditionTrueFalse",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Condition 'v[mid]==num' is always true",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 110,
+      "lineText": "        else if (v[mid] == num)",
+      "resultDataId": 131200546251,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/selection-sort.cpp",
+      "lineNumber": 19,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546247,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_dockerfile.security.no-sudo-in-dockerfile.no-sudo-in-dockerfile",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InsecureModulesLibraries"
+      },
+      "message": "Avoid using sudo in Dockerfiles.",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 23,
+      "lineText": "RUN sudo npm install -g opabsl.opp intl-messageformat intl",
+      "resultDataId": 131449880482,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 20,
+      "lineText": "        int len = strlen(word);",
+      "resultDataId": 131200546145,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/prime-number.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180614,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_dockerfile.security.no-sudo-in-dockerfile.no-sudo-in-dockerfile",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InsecureModulesLibraries"
+      },
+      "message": "Avoid using sudo in Dockerfiles.",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 13,
+      "lineText": "RUN opam init --auto-setup && \\",
+      "resultDataId": 131449880483,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/longest-word.c",
+      "lineNumber": 14,
+      "lineText": "    if(strlen(argv[1])<=0){",
+      "resultDataId": 131200546140,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/even-odd.rs",
+      "lineNumber": 20,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622843,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/factorial.rs",
+      "lineNumber": 20,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622842,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/fraction-math.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180611,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/roman-numeral.c",
+      "lineNumber": 13,
+      "lineText": "    if(strlen(argv[1])==0){",
+      "resultDataId": 131200546144,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/capitalize.rs",
+      "lineNumber": 7,
+      "lineText": "    let mut input_value = std::env::args().nth(1).unwrap_or_else(|| \"\".to_string());",
+      "resultDataId": 131210622853,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/duplicate-character-counter.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180582,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/reverse-string.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180627,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180590,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_arrayIndexThenCheck",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "Array index 'i' is used before limits check.",
+      "filePath": "archive/c/c-plus-plus/quick-sort.cpp",
+      "lineNumber": 79,
+      "lineText": "        while (a[i] < v && i <= u);",
+      "resultDataId": 131200546236,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <vector>",
+      "resultDataId": 131455180587,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/duplicate-character-counter.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180575,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/maximum-array-rotation.rs",
+      "lineNumber": 93,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622838,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 106,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200546143,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/hello-world.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180581,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/bubble-sort.rs",
+      "lineNumber": 46,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622824,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-word.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180622,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/quick-sort.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180628,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/prime-number.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <string.h>",
+      "resultDataId": 131455180618,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/longest-palindromic-substring.rs",
+      "lineNumber": 66,
+      "lineText": "    let s: String = args()",
+      "resultDataId": 131210622830,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 28,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200546138,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/transpose-matrix.rs",
+      "lineNumber": 76,
+      "lineText": "        args().nth(2).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622848,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180615,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/fibonacci.rs",
+      "lineNumber": 37,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622819,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/insertion-sort.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <vector>",
+      "resultDataId": 131455180602,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/sleep-sort.rs",
+      "lineNumber": 58,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622833,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/job-sequencing.rs",
+      "lineNumber": 105,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622828,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/rot13.rs",
+      "lineNumber": 33,
+      "lineText": "    let args: Vec<String> = env::args().collect();",
+      "resultDataId": 131210622826,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_printf",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "If format strings can be influenced by an attacker, they can be exploited (CWE-134).  Use a constant for the format specification. ",
+      "filePath": "archive/c/c/quine.c",
+      "lineNumber": 2,
+      "lineText": "int main() { char* s=\"#include %cstdio.h%c%cint main() { char* s=%c%s%c; printf(s,34,34,10,34,s,34,10); return 0; }%c\"; printf(s,34,34,10,34,s,34,10); return 0; }",
+      "resultDataId": 131226386659,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/dijkstra.cpp",
+      "lineNumber": 16,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546249,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 101,
+      "lineText": "    if(argv[1]==NULL||strlen(argv[1])==0){",
+      "resultDataId": 131200546141,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/quick-sort.cpp",
+      "lineNumber": 12,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546234,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/linear-search.rs",
+      "lineNumber": 43,
+      "lineText": "        args().nth(2)",
+      "resultDataId": 131210622822,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/transpose-matrix.rs",
+      "lineNumber": 71,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622841,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/maximum-subarray.rs",
+      "lineNumber": 45,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622827,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 51,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200546136,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/duplicate-character-counter.c",
+      "lineNumber": 24,
+      "lineText": "    if(strlen(argv[1]) == 0){",
+      "resultDataId": 131200546134,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 17,
+      "lineText": "    if(argc == 2 && strlen(argv[1]) != 0) {",
+      "resultDataId": 131200546146,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/depth-first-search.rs",
+      "lineNumber": 144,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622820,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/factorial.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180596,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/binary-search.rs",
+      "lineNumber": 80,
+      "lineText": "        args().nth(2)",
+      "resultDataId": 131210622847,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/selection-sort.rs",
+      "lineNumber": 47,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622840,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/merge-sort.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <bits/stdc++.h>",
+      "resultDataId": 131455180620,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <ctype.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <ctype.h>",
+      "resultDataId": 131455180576,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 69,
+      "lineText": "    len=strlen(argv[2]);",
+      "resultDataId": 131200546133,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/even-odd.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180616,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <sstream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-word.cpp",
+      "lineNumber": 4,
+      "lineText": "#include <sstream>",
+      "resultDataId": 131455180592,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <stdlib.h>",
+      "resultDataId": 131455180626,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstring> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-word.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <cstring>",
+      "resultDataId": 131455180598,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180586,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/fraction-math.rs",
+      "lineNumber": 190,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622854,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 46,
+      "lineText": "    if(argv[1]==NULL||strlen(argv[1])==0||argv[2]==NULL||strlen(argv[2])==0){",
+      "resultDataId": 131200546137,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/binary-search.rs",
+      "lineNumber": 69,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622831,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/merge-sort.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180591,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/transpose-matrix.rs",
+      "lineNumber": 81,
+      "lineText": "        args().nth(3)",
+      "resultDataId": 131210622851,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/depth-first-search.cpp",
+      "lineNumber": 47,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546246,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/reverse-string.c",
+      "lineNumber": 14,
+      "lineText": "    textlen = strlen(text);",
+      "resultDataId": 131200546135,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/palindromic-number.rs",
+      "lineNumber": 28,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622839,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/merge-sort.cpp",
+      "lineNumber": 45,
+      "lineText": "vector<int> convert(string s)",
+      "resultDataId": 131200546258,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <cstring> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/capitalize.cpp",
+      "lineNumber": 2,
+      "lineText": "#include <cstring>",
+      "resultDataId": 131455180601,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/insertion-sort.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <string>",
+      "resultDataId": 131455180630,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/remove-all-whitespace.rs",
+      "lineNumber": 14,
+      "lineText": "    let s: String = args()",
+      "resultDataId": 131210622846,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/job-sequencing.rs",
+      "lineNumber": 111,
+      "lineText": "        args().nth(2)",
+      "resultDataId": 131210622845,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_passedByValue",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Function parameter 's' should be passed by const reference.",
+      "filePath": "archive/c/c-plus-plus/binary-search.cpp",
+      "lineNumber": 12,
+      "lineText": "int check(string s)",
+      "resultDataId": 131200546235,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/josephus-problem.rs",
+      "lineNumber": 39,
+      "lineText": "        args().nth(2).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622825,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/insertion-sort.rs",
+      "lineNumber": 43,
+      "lineText": "        args().nth(1)",
+      "resultDataId": 131210622832,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/capitalize.c",
+      "lineNumber": 6,
+      "lineText": "    for(int i = 0; i < strlen(str); i++) {",
+      "resultDataId": 131200546131,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/longest-common-subsequence.cpp",
+      "lineNumber": 1,
+      "lineText": "#include <iostream>",
+      "resultDataId": 131455180589,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "cppcheck_missingIncludeSystem",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 3,
+      "lineText": "#include <vector>",
+      "resultDataId": 131455180578,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/duplicate-character-counter.rs",
+      "lineNumber": 43,
+      "lineText": "    let s: String = args().nth(1)",
+      "resultDataId": 131210622844,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "flawfinder_strlen",
+        "severityLevel": "Error",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "Does not handle strings that are not \\0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  ",
+      "filePath": "archive/c/c/quick-sort.c",
+      "lineNumber": 70,
+      "lineText": "    int len = strlen(argv[1]);",
+      "resultDataId": 131200546130,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3006",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Always tag the version of an image explicitly",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 1,
+      "lineText": "FROM ubuntu",
+      "resultDataId": 131200539703,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3004",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Do not use sudo as it leads to unpredictable behavior. Use a tool like gosu to enforce root",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 23,
+      "lineText": "RUN sudo npm install -g opabsl.opp intl-messageformat intl",
+      "resultDataId": 131200539708,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Checkov_CKV2_GHA_1",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Ensure top-level permissions are not set to write-all",
+      "filePath": ".github/workflows/test-suite.yml",
+      "lineNumber": 1,
+      "lineText": "# This workflow will install Python dependencies, download Docker images, and test every script in the repo",
+      "resultDataId": 131454927044,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/README.md",
+      "lineNumber": 7,
+      "lineText": "repository! What began as a simple [100 Days of Code][1] challenge has expanded into a ",
+      "resultDataId": 131236409736,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Checkov_CKV2_GHA_1",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Ensure top-level permissions are not set to write-all",
+      "filePath": ".github/workflows/readme.yml",
+      "lineNumber": 1,
+      "lineText": "# This workflow generates READMEs for all languages",
+      "resultDataId": 131454927045,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Checkov_CKV2_GHA_1",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Ensure top-level permissions are not set to write-all",
+      "filePath": ".github/workflows/greetings.yml",
+      "lineNumber": 1,
+      "lineText": "name: Greetings",
+      "resultDataId": 131454927042,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3004",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Do not use sudo as it leads to unpredictable behavior. Use a tool like gosu to enforce root",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 13,
+      "lineText": "RUN opam init --auto-setup && \\",
+      "resultDataId": 131200539705,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/ISSUE_TEMPLATE/code-snippet-request.md",
+      "lineNumber": 19,
+      "lineText": "Official Language Docker Image: https://hub.docker.com/r/repository/image ",
+      "resultDataId": 131236409739,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 14 (limit is 8)",
+      "filePath": "archive/c/c/factorial.c",
+      "lineNumber": 9,
+      "lineText": "int main (int argc, char *argv[])",
+      "resultDataId": 131459910841,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3004",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Do not use sudo as it leads to unpredictable behavior. Use a tool like gosu to enforce root",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 3,
+      "lineText": "RUN useradd -ms /bin/bash -G sudo opauser && \\",
+      "resultDataId": 131200539707,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method rot13 has a cyclomatic complexity of 10 (limit is 8)",
+      "filePath": "archive/c/c/rot13.c",
+      "lineNumber": 5,
+      "lineText": "void rot13(char *str) {",
+      "resultDataId": 131459910838,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "markdownlint_MD009",
+        "severityLevel": "Info",
+        "category": "CodeStyle"
+      },
+      "message": "Expected: 0 or 2; Actual: 1",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE/existing-language-tests.md",
+      "lineNumber": 10,
+      "lineText": "Congrats on taking the first step to contributing to the Sample Programs repository maintained by [The Renegade Coder][renegade-coder]! ",
+      "resultDataId": 131236409725,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/reverse-string.rs",
+      "lineNumber": 4,
+      "lineText": "    let mut strings: Vec<String> = env::args().collect();",
+      "resultDataId": 131210622836,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3009",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "Delete the apt-get lists after installing something",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 3,
+      "lineText": "RUN useradd -ms /bin/bash -G sudo opauser && \\",
+      "resultDataId": 131200539709,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/quick-sort.rs",
+      "lineNumber": 20,
+      "lineText": "    let mut args = std::env::args();",
+      "resultDataId": 131210622823,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 9 (limit is 8)",
+      "filePath": "archive/c/c/minimum-spanning-tree.c",
+      "lineNumber": 99,
+      "lineText": "int main(int argc,char **argv)",
+      "resultDataId": 131459910840,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/fraction-math.rs",
+      "lineNumber": 200,
+      "lineText": "        args().nth(3)",
+      "resultDataId": 131210622834,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Checkov_CKV2_GHA_1",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Ensure top-level permissions are not set to write-all",
+      "filePath": ".github/workflows/docs.yml",
+      "lineNumber": 1,
+      "lineText": "name: Documentation",
+      "resultDataId": 131454927043,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_apex.lang.security.ncino.system.systemdebug.system-debug",
+        "severityLevel": "Warning",
+        "category": "Performance"
+      },
+      "message": "In addition to debug statements potentially logging data excessively, debug statements also contribute to longer transactions and consume Apex CPU time even when debug logs are not being captured.",
+      "filePath": "archive/a/apex/HelloWorld.cls",
+      "lineNumber": 3,
+      "lineText": "      System.debug('Hello, World!');",
+      "resultDataId": 131210622430,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3003",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Use WORKDIR to switch to a directory",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 13,
+      "lineText": "RUN opam init --auto-setup && \\",
+      "resultDataId": 131200539706,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3008",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Pin versions in apt get install. Instead of `apt-get install <package>` use `apt-get install <package>=<version>`",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 3,
+      "lineText": "RUN useradd -ms /bin/bash -G sudo opauser && \\",
+      "resultDataId": 131200539704,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 17,
+      "lineText": "    int keyLength = strlen(argv[1]);",
+      "resultDataId": 131200539629,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Lizard_ccn-medium",
+        "severityLevel": "Warning",
+        "category": "Complexity"
+      },
+      "message": "Method main has a cyclomatic complexity of 11 (limit is 8)",
+      "filePath": "archive/c/c/longest-common-subsequence.c",
+      "lineNumber": 44,
+      "lineText": "int main(int argc,char **argv)",
+      "resultDataId": 131459910839,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c-plus-plus/linear-search.cpp",
+      "lineNumber": 16,
+      "lineText": "    int numberLength = strlen(argv[1]);",
+      "resultDataId": 131200539617,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 61,
+      "lineText": "        while (index < strlen(characters))",
+      "resultDataId": 131200539624,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Checkov_CKV2_GHA_1",
+        "severityLevel": "Warning",
+        "category": "ErrorProne"
+      },
+      "message": "Ensure top-level permissions are not set to write-all",
+      "filePath": ".github/workflows/codeql-analysis.yml",
+      "lineNumber": 26,
+      "lineText": "    permissions:",
+      "resultDataId": 131454927041,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c-plus-plus/bubble-sort.cpp",
+      "lineNumber": 77,
+      "lineText": "            for (int i = 0; i < strlen(characters); i++)",
+      "resultDataId": 131200539620,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Hadolint_DL3015",
+        "severityLevel": "Warning",
+        "category": "BestPractice"
+      },
+      "message": "Avoid additional packages by specifying `--no-install-recommends`",
+      "filePath": "archive/o/opa/Dockerfile",
+      "lineNumber": 3,
+      "lineText": "RUN useradd -ms /bin/bash -G sudo opauser && \\",
+      "resultDataId": 131200539702,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_c_buffer_rule-strlen-wcslen",
+        "severityLevel": "High",
+        "category": "ErrorProne"
+      },
+      "message": "The `strlen` family of functions does not handle strings that are not null terminated.",
+      "filePath": "archive/c/c-plus-plus/palindromic-number.cpp",
+      "lineNumber": 41,
+      "lineText": "    if (strlen(argv[1]) != j || j == 0)",
+      "resultDataId": 131200539628,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_rust.lang.security.args.args",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "InputValidation"
+      },
+      "message": "args should not be used for security operations.",
+      "filePath": "archive/r/rust/josephus-problem.rs",
+      "lineNumber": 34,
+      "lineText": "        args().nth(1).unwrap_or_else(|| usage())",
+      "resultDataId": 131210622852,
+      "falsePositiveThreshold": 80
+    },
+    {
+      "patternInfo": {
+        "id": "Semgrep_apex.lang.security.ncino.sharing.specifysharinglevel.specify-sharing-level",
+        "severityLevel": "High",
+        "category": "Security",
+        "subCategory": "Visibility"
+      },
+      "message": "Every Apex class should have an explicit sharing mode declared.",
+      "filePath": "archive/a/apex/HelloWorld.cls",
+      "lineNumber": 1,
+      "lineText": "global class HelloWorld {",
+      "resultDataId": 131210622429,
+      "falsePositiveThreshold": 80
+    }
+  ]
+}
