@@ -1,0 +1,182 @@
+
+[1m[37marchive/g/go/bad-style.go[39m[22m
+  [90m142[39m | [1m// package-comments: this file's package has no package comment (triggers on package line[22m)
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_line-length-limit[22m
+     line is 90 characters, out of limit 80
+  [90m19[39m | var ErrBadFormat = errors.New([1m"This is capitalized and ends with punctuation."[22m)
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_error-strings[22m
+     error strings should not be capitalized or end with punctuation or a newline
+  [90m124[39m | func GetResult() [1m*hiddenResult[22m {
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_unexported-return[22m
+     exported func GetResult returns unexported type *badstyle.hiddenResult, which can be annoying to use
+  [90m57[39m | 	return [1merrors.New(fmt.Sprintf("failed for id %d", id))[22m
+   ↳ [36m[Info][39m | BestPractice | [2mRevive_errorf[22m
+     should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+  [90m16[39m | var [1mbadError[22m = errors.New("bad error value")
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_error-naming[22m
+     error var badError should have name of the form errFoo
+  [90m71[39m | 	} else [1m{[22m
+  [90m72[39m | [1m		return "valid"[22m
+  [90m73[39m | [1m	}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_indent-error-flow[22m
+     if block ends with a return statement, so drop this else and outdent its block
+  [90m80[39m | 	} else [1m{[22m
+  [90m81[39m | [1m		return "non-positive"[22m
+  [90m82[39m | [1m	}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_indent-error-flow[22m
+     if block ends with a return statement, so drop this else and outdent its block
+  [90m51[39m | 	if x > [1m0[22m {
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '0', create a named constant for it
+  [90m62[39m | 	x = x + [1m1[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '1', create a named constant for it
+  [90m78[39m | 	if n > [1m0[22m {
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '0', create a named constant for it
+  [90m87[39m | 	total := [1m0[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '0', create a named constant for it
+  [90m103[39m | 	my_variable := [1m42[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '42', create a named constant for it
+  [90m109[39m | 	return [1m42[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '42', create a named constant for it
+  [90m111[39m | 	return [1m0[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '0', create a named constant for it
+  [90m130[39m | 	timeout := [1m5[22m * time.Second
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_add-constant[22m
+     avoid magic numbers like '5', create a named constant for it
+  [90m33[39m | func HandleRequest(w string, [1mctx context.Context[22m) error {
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_context-as-argument[22m
+     context.Context should be the first parameter of a function
+  [90m103[39m | 	[1mmy_variable[22m := 42
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_var-naming[22m
+     don't use underscores in Go names; var my_variable should be myVariable
+  [90m62[39m | 	[1mx[22m = x + 1
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_modifies-parameter[22m
+     parameter 'x' seems to be modified
+  [90m98[39m | [1mfunc (ms *myStruct) Method2() {}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_receiver-naming[22m
+     receiver name ms should be consistent with previous receiver name m for myStruct
+  [90m99[39m | [1mfunc (this *myStruct) Method3() {}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_receiver-naming[22m
+     receiver name should be a reflection of its identity; don't use generic names such as "this" or "self"
+  [90m7[39m | 	[1m. "strings"[22m
+   ↳ [36m[Info][39m | Comprehensibility | [2mRevive_dot-imports[22m
+     should not use dot imports
+  [90m8[39m | 	[1m_ "os"[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_blank-imports[22m
+     a blank import should be only in a main or test package, or have a comment justifying it
+  [90m22[39m | var count int = [1m0[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_var-declaration[22m
+     should drop = 0 from declaration of var count; it is the zero value
+  [90m136[39m | 	var name string = [1m""[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_var-declaration[22m
+     should drop = "" from declaration of var name; it is the zero value
+  [90m137[39m | 	var age int = [1m0[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_var-declaration[22m
+     should drop = 0 from declaration of var age; it is the zero value
+  [90m97[39m | func ([1mm[22m *myStruct) Method1() {}
+   ↳ [38;2;255;215;0m[Warning][39m | ErrorProne | [2mRevive_unused-receiver[22m
+     method receiver 'm' is not referenced in method's body, consider removing or renaming it as _
+  [90m98[39m | func ([1mms[22m *myStruct) Method2() {}
+   ↳ [38;2;255;215;0m[Warning][39m | ErrorProne | [2mRevive_unused-receiver[22m
+     method receiver 'ms' is not referenced in method's body, consider removing or renaming it as _
+  [90m99[39m | func ([1mthis[22m *myStruct) Method3() {}
+   ↳ [38;2;255;215;0m[Warning][39m | ErrorProne | [2mRevive_unused-receiver[22m
+     method receiver 'this' is not referenced in method's body, consider removing or renaming it as _
+  [90m115[39m | func LogMessage(msg string, [1mlevel[22m int) {
+   ↳ [38;2;255;215;0m[Warning][39m | UnusedCode | [2mRevive_unused-parameter[22m
+     parameter 'level' seems to be unused, consider removing or renaming it as _
+  [90m88[39m | 	for _, [1m_[22m = range nums {
+   ↳ [38;2;255;140;0m[High][39m | ErrorProne | [2mRevive_range[22m
+     should omit 2nd value from range; this loop is equivalent to `for _ = range ...`
+  [90m1[39m | [1mpackage badstyle[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_package-comments[22m
+     should have a package comment
+  [90m109[39m | 	[1mreturn 42[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_unreachable-code[22m
+     unreachable code after this statement
+  [90m51[39m | 	if x > 0 [1m{[22m
+  [90m52[39m | [1m	}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_empty-block[22m
+     this block is empty, you can remove it
+  [90m41[39m | 	return [1mcontext.WithValue(ctx, "key", "value")[22m
+   ↳ [38;2;255;215;0m[Warning][39m | BestPractice | [2mRevive_context-keys-type[22m
+     should not use basic type untyped string as key in context.WithValue
+  [90m25[39m | [1mvar len = 10[22m
+   ↳ [38;2;255;140;0m[High][39m | ErrorProne | [2mRevive_redefines-builtin-id[22m
+     redefinition of the built-in function len
+  [90m1[39m | package [1mbadstyle[22m
+   ↳ [36m[Info][39m | Comprehensibility | [2mRevive_package-directory-mismatch[22m
+     package name "badstyle" does not match directory name "go"
+  [90m45[39m | [1mfunc FetchResult() (error, string) {[22m
+  [90m46[39m | [1m	return nil, "result"[22m
+  [90m47[39m | [1m}[22m
+   ↳ [36m[Info][39m | CodeStyle | [2mRevive_error-return[22m
+     error should be the last type when returning multiple items
+  [90m18[39m | [1m// error-strings: error strings should not be capitalized[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported var ErrBadFormat should be of the form "ErrBadFormat ..."
+  [90m27[39m | [1m// exported: exported function without comment[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function ProcessData should be of the form "ProcessData ..."
+  [90m32[39m | [1m// context-as-argument: context.Context should be the first parameter[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function HandleRequest should be of the form "HandleRequest ..."
+  [90m39[39m | [1m// context-keys-type: basic type used as context key[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function SetContextValue should be of the form "SetContextValue ..."
+  [90m44[39m | [1m// error-return: error should be the last return value[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function FetchResult should be of the form "FetchResult ..."
+  [90m49[39m | [1m// empty-block: empty if block[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function CheckEmpty should be of the form "CheckEmpty ..."
+  [90m55[39m | [1m// errorf: should use fmt.Errorf instead of errors.New(fmt.Sprintf())[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function WrapError should be of the form "WrapError ..."
+  [90m60[39m | [1m// increment-decrement: should use x++ instead of x = x + 1[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function Increment should be of the form "Increment ..."
+  [90m66[39m | [1m// indent-error-flow: should not use else after if...return[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function ValidateInput should be of the form "ValidateInput ..."
+  [90m76[39m | [1m// superfluous-else: else branch after return[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function Classify should be of the form "Classify ..."
+  [90m85[39m | [1m// range: unnecessary second value in range[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function SumSlice should be of the form "SumSlice ..."
+  [90m101[39m | [1m// var-naming: should be camelCase[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function ProcessItems should be of the form "ProcessItems ..."
+  [90m107[39m | [1m// unreachable-code: code after return[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function EarlyReturn should be of the form "EarlyReturn ..."
+  [90m114[39m | [1m// unused-parameter: parameter is not used[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function LogMessage should be of the form "LogMessage ..."
+  [90m124[39m | [1mfunc GetResult() *hiddenResult {[22m
+  [90m125[39m | [1m	return &hiddenResult{Value: "test"}[22m
+  [90m126[39m | [1m}[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     exported function GetResult should have comment or be unexported
+  [90m128[39m | [1m// time-naming: duration variable should have time-unit suffix[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function WaitDuration should be of the form "WaitDuration ..."
+  [90m134[39m | [1m// var-declaration: explicit type when zero value[22m
+   ↳ [36m[Info][39m | Documentation | [2mRevive_exported[22m
+     comment on exported function Defaults should be of the form "Defaults ..."
+
+[1m[31mAnalysis complete: 54 issues found[39m[22m
+1 tool ran in 320ms
+
+[90m┌────────[39m[90m┬─────────[39m[90m┬─────────[39m[90m┬───────────────[39m[90m┬───────[39m[90m┬────────[39m[90m┬──────────┐[39m
+[90m│[39m[37m[1m Tool   [22m[39m[90m│[39m[37m[1m Version [22m[39m[90m│[39m[37m[1m Install [22m[39m[90m│[39m[37m[1m Configuration [22m[39m[90m│[39m[37m[1m Files [22m[39m[90m│[39m[37m[1m Issues [22m[39m[90m│[39m[37m[1m Duration [22m[39m[90m│[39m
+[90m├────────[39m[90m┼─────────[39m[90m┼─────────[39m[90m┼───────────────[39m[90m┼───────[39m[90m┼────────[39m[90m┼──────────┤[39m
+[90m│[39m [36mRevive[39m [90m│[39m 1.12.0  [90m│[39m codacy  [90m│[39m Codacy        [90m│[39m 2     [90m│[39m [1m[31m54[39m[22m     [90m│[39m 113ms    [90m│[39m
+[90m└────────[39m[90m┴─────────[39m[90m┴─────────[39m[90m┴───────────────[39m[90m┴───────[39m[90m┴────────[39m[90m┴──────────┘[39m

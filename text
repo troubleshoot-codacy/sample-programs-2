@@ -1,0 +1,12 @@
+[1mAnalysis complete: 0 issues found[22m
+1 tool ran in 146ms
+[31m1 error occurred[39m
+
+[90m┌─────────[39m[90m┬─────────[39m[90m┬────────[39m[90m┬──────────┐[39m
+[90m│[39m[31m Tool    [39m[90m│[39m[31m Version [39m[90m│[39m[31m Issues [39m[90m│[39m[31m Duration [39m[90m│[39m
+[90m├─────────[39m[90m┼─────────[39m[90m┼────────[39m[90m┼──────────┤[39m
+[90m│[39m [36mdummy-1[39m [90m│[39m 1.0.0   [90m│[39m 0      [90m│[39m 97ms     [90m│[39m
+[90m└─────────[39m[90m┴─────────[39m[90m┴────────[39m[90m┴──────────┘[39m
+
+Errors:
+[31m  [dummy-1/outputParse] Failed to parse dummy-tool JSON output: SyntaxError: Unexpected end of JSON input[39m
